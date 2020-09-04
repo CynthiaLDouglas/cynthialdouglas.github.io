@@ -207,12 +207,12 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: black;
   height: 7rem;
   width: 7rem;
   display: block;
   line-height: 7.5rem;
-  font-size: 2.25rem;
+  font-size: 3.5rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
