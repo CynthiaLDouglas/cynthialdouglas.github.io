@@ -21,6 +21,7 @@ body {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  background-color: #000000;
 }
 
 .content-section-heading h2 {
@@ -95,28 +96,56 @@ h6 {
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/vintage-ceramic-figurine-2-1559026.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 55% 100%;
 }
 
 .masthead h1 {
   font-size: 4rem;
-  margin: 0;
-  padding: 0;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 414px) {
+  .masthead {
+    height: 25vh;
+  }
+  .masthead h1 {
+    font-size: 1.5rem;
+  }
+  .masthead h3 {
+    font-size: .5rem;
+  }
+  .masthead .masthead {
+    background-image: url("../img/vintage-ceramic-figurine-2-1559026.jpg");
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .masthead {
+    height: 50vh;
+  }
+  .masthead h1 {
+    font-size: 3.5rem;
+  }
+  .masthead h3 {
+    font-size: 1.25rem;
+  }
+  .masthead .masthead {
+    background-image: url("../img/vintage-ceramic-figurine-2-1559026.jpg");
+  }
+}
+
+@media (min-width: 1025px) {
   .masthead {
     height: 100vh;
   }
   .masthead h1 {
     font-size: 5.5rem;
   }
-}
-
-.masthead img {
-  margin: 0;
-  padding: 0;
-  box-shadow: 0 0 8px 8px white inset;
+  .masthead h3 {
+    font-size: 1.75rem;
+  }
+  .masthead .masthead {
+    background-image: url("../img/vintage-ceramic-figurine-2-1559026.jpg");
+  }
 }
 
 /* Side Menu */
@@ -128,7 +157,7 @@ h6 {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #343a40;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -207,12 +236,12 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: black;
-  height: 7rem;
-  width: 7rem;
+  color: #343a40;
+  height: 5rem;
+  width: 5rem;
   display: block;
-  line-height: 7.5rem;
-  font-size: 3.5rem;
+  line-height: 5.5rem;
+  font-size: 2.5rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 

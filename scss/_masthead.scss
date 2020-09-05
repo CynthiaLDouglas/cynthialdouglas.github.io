@@ -9,21 +9,46 @@
   background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/vintage-ceramic-figurine-2-1559026.jpg');
   // background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 55% 100%;
   h1 {
     font-size: 4rem;
-    margin: 0;
-    padding: 0;
+    // margin: 0;
+    // padding: 0;
   }
-  @media (min-width: 992px) {
+  @media (max-width: 414px) {
+    height: 25vh;
+    h1 {
+      font-size: 1.5rem;
+    }
+    h3 {
+      font-size: .5rem;
+    }
+    .masthead {
+        background-image: url('../img/vintage-ceramic-figurine-2-1559026.jpg');
+    }
+  }
+  @media (min-width: 481px) and (max-width: 1024px) {
+    height: 50vh;
+    h1 {
+      font-size: 3.5rem;
+    }
+    h3 {
+      font-size: 1.25rem;
+    }
+    .masthead {
+        background-image: url('../img/vintage-ceramic-figurine-2-1559026.jpg');
+    }
+  }
+  @media (min-width: 1025px) {
     height: 100vh;
     h1 {
       font-size: 5.5rem;
     }
-  }
-  img {
-    margin: 0;
-    padding: 0;
-    box-shadow: 0 0 8px 8px white inset;
+    h3 {
+      font-size: 1.75rem;
+    }
+    .masthead {
+        background-image: url('../img/vintage-ceramic-figurine-2-1559026.jpg');
+    }
   }
 }
