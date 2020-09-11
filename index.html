@@ -20,6 +20,7 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="css/_header.css" rel="stylesheet">
 
   <!-- Devicon 2.6 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
@@ -56,18 +57,18 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-        <div class="col">
-          <h1 class="mb-1 d-flex justify-content-end">Cynthia L. Douglas</h1>
-          <h3 class="mb-5 d-flex justify-content-end">
-            <em>Full Stack Developer | Educator | Web Accessibility Enthusiast</em>
-          </h3>
-        </div>
+    <main role="main" class="main-content masthead" id="main-content">
+      <canvas id="noise" class="noise"></canvas>
+      <div class="titleCont">
+          <h1>
+              Cynthia L. Douglas
+          </h1>
+          <h3>Full Stack Developer | Educator | Web Accessibility Enthusiast</h3>
       </div>
-    </div>
+
+    <div class="vignette"></div>
+    </main>
     <div class="overlay"></div>
-  </header>
 
   <!-- About -->
   <section class="content-section text-warning" id="about">
@@ -416,6 +417,9 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
+
+  <!-- Noise -->
+  <script src="js/noise.js"></script>
 
 </body>
 

@@ -94,9 +94,10 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/vintage-ceramic-figurine-2-1559026.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/pexels-pixabay-235985.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: 55% 100%;
+  background-size: cover;
 }
 
 .masthead h1 {
@@ -114,7 +115,7 @@ h6 {
     font-size: .5rem;
   }
   .masthead .masthead {
-    background-image: url("../img/vintage-ceramic-figurine-2-1559026.jpg");
+    background-image: url("../img/pexels-pixabay-235985.jpg");
   }
 }
 
@@ -129,7 +130,7 @@ h6 {
     font-size: 1.25rem;
   }
   .masthead .masthead {
-    background-image: url("../img/vintage-ceramic-figurine-2-1559026.jpg");
+    background-image: url("../img/pexels-pixabay-235985.jpg");
   }
 }
 
@@ -144,7 +145,7 @@ h6 {
     font-size: 1.75rem;
   }
   .masthead .masthead {
-    background-image: url("../img/vintage-ceramic-figurine-2-1559026.jpg");
+    background-image: url("../img/pexels-pixabay-235985.jpg");
   }
 }
 
