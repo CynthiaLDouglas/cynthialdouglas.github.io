@@ -100,7 +100,7 @@ h6 {
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url("../img/pexels-giallo-859895.jpg");
+    url("../img/pexels-pixabay-235985.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,7 +121,7 @@ h6 {
     font-size: 0.5rem;
   }
   .masthead .masthead {
-    background-image: url("../img/pexels-giallo-859895.jpg");
+    background-image: url("../img/pexels-pixabay-235985.jpg");
   }
 }
 
@@ -136,7 +136,7 @@ h6 {
     font-size: 1.25rem;
   }
   .masthead .masthead {
-    background-image: url("../img/pexels-giallo-859895.jpg");
+    background-image: url("../img/pexels-pixabay-235985.jpg");
   }
 }
 
@@ -151,7 +151,7 @@ h6 {
     font-size: 1.75rem;
   }
   .masthead .masthead {
-    background-image: url("../img/pexels-giallo-859895.jpg");
+    background-image: url("../img/pexels-pixabay-235985.jpg");
   }
 }
 
